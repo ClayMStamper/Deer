@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		gravity.y = gravityMod;
-		speed = 7.6f - head.transform.position.x; //- neck.transform.position.x;
+		speed = 6f - head.transform.position.x; //- neck.transform.position.x;
 		animator.speed = Mathf.Sqrt (speed)/2;
 		if (transform.localPosition.y > 0) {
 			animator.speed = .2f; // jump animation

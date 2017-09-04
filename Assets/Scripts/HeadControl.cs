@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Head : MonoBehaviour {
+public class HeadControl : MonoBehaviour {
 
 	GameObject neck;
 	public GameObject body;

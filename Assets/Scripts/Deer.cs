@@ -16,12 +16,9 @@ public class Deer : MonoBehaviour {
 	public static Deer GetInstance(){
 		return instance;
 	}
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	void OnTriggerEnter2D(Collider2D col){
+		if (col.CompareTag ("Enemy")) {
+			currentHealth -= col.GetComponent <Enemy> ().contactDamage;
+		}
 	}
 }

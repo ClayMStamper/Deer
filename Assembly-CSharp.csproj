@@ -51,8 +51,10 @@
      <Compile Include="Assets\Scripts\Deer.cs" />
      <Compile Include="Assets\Scripts\DeerHealthSlider.cs" />
      <Compile Include="Assets\Scripts\DragHandler.cs" />
+     <Compile Include="Assets\Scripts\Enemy.cs" />
      <Compile Include="Assets\Scripts\GoblinArcher.cs" />
-     <Compile Include="Assets\Scripts\Head.cs" />
+     <Compile Include="Assets\Scripts\HeadAttack.cs" />
+     <Compile Include="Assets\Scripts\HeadControl.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
      <Compile Include="Assets\Scripts\Rope.cs" />
      <Compile Include="Assets\Scripts\ScrollCollider.cs" />
